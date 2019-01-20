@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348; -fx-border-color: #000000;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label alignment="CENTER" contentDisplay="TEXT_ONLY" layoutX="179.0" layoutY="12.0" lineSpacing="2.0" prefHeight="51.0" prefWidth="315.0" style="-fx-background-color: #bade00; -fx-background-radius: 5;" text="Моя база данных" textAlignment="CENTER">
+         <font>
+            <Font name="Algerian" size="39.0" />
+         </font>
+      </Label>
+      <Button fx:id="ButtonForStock" layoutX="14.0" layoutY="200.0" mnemonicParsing="false" prefHeight="186.0" prefWidth="299.0" style="-fx-background-color: #fafafa;" text="Склад">
+         <font>
+            <Font name="Arial" size="69.0" />
+         </font>
+      </Button>
+      <Button fx:id="ButtonForPrices" layoutX="387.0" layoutY="200.0" mnemonicParsing="false" prefHeight="186.0" prefWidth="299.0" style="-fx-background-color: #fafafa;" text="Цены" textFill="#0d0000">
+         <font>
+            <Font name="Arial" size="69.0" />
+         </font>
+      </Button>
+      <Button fx:id="ButtonForExit" layoutX="598.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="88.0" style="-fx-background-color: #fafafa; -fx-border-radius: 100;" text="Exit" textFill="RED">
+         <font>
+            <Font name="Arial" size="28.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

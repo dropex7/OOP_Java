@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerForBar">
+    <children>
+        <BarChart fx:id="forBar" layoutX="26.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #fafafa;" title="Цены" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <xAxis>
+                <CategoryAxis fx:id="Xaxis" prefHeight="20.0" prefWidth="505.0" side="BOTTOM">
+                    <tickLabelFont>
+                        <Font name="Arial" size="10.0" />
+                    </tickLabelFont>
+                </CategoryAxis>
+            </xAxis>
+            <yAxis>
+                <NumberAxis fx:id="Yaxis" side="LEFT">
+                    <tickLabelFont>
+                        <Font name="Arial" size="10.0" />
+                    </tickLabelFont>
+                </NumberAxis>
+            </yAxis>
+        </BarChart>
+    </children>
+</AnchorPane>
